@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Sep 15 14:01:35 KST 2012
+http\://repo.maven.apache.org/maven2/.lastUpdated=1347685295133
+default-http\://repo.springsource.org/libs-milestone/.lastUpdated=1347685294072
+http\://repo.springsource.org/libs-milestone/.error=Could not transfer artifact org.apache.openwebbeans\:openwebbeans\:pom\:1.1.3 from/to spring-libs-milestone (http\://repo.springsource.org/libs-milestone)\: Access denied to http\://repo.springsource.org/libs-milestone/org/apache/openwebbeans/openwebbeans/1.1.3/openwebbeans-1.1.3.pom. Error code 401, Unauthorized

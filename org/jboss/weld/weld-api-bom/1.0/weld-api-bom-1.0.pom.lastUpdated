@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Sep 15 14:01:17 KST 2012
+http\://repo.maven.apache.org/maven2/.lastUpdated=1347685277624
+default-http\://repo.springsource.org/libs-milestone/.lastUpdated=1347685277022
+http\://repo.springsource.org/libs-milestone/.error=Could not transfer artifact org.jboss.weld\:weld-api-bom\:pom\:1.0 from/to spring-libs-milestone (http\://repo.springsource.org/libs-milestone)\: Access denied to http\://repo.springsource.org/libs-milestone/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom. Error code 401, Unauthorized

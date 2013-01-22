@@ -1,0 +1,6 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Mon Dec 24 15:58:54 KST 2012
+spring-core-3.2.0.BUILD-SNAPSHOT.pom>org.springframework.maven.snapshot=
+spring-core-3.2.0.BUILD-SNAPSHOT-sources.jar>org.springframework.maven.snapshot=
+spring-core-3.2.0.BUILD-SNAPSHOT.jar>org.springframework.maven.snapshot=
+spring-core-3.2.0.BUILD-SNAPSHOT-javadoc.jar>org.springframework.maven.snapshot=
