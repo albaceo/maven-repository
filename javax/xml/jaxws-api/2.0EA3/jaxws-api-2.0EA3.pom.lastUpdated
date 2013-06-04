@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Apr 19 16:48:58 KST 2013
+default-http\://nexus.ucs.co.kr/nexus/content/groups/public/.lastUpdated=1366357738049
+http\://nexus.ucs.co.kr/nexus/content/groups/public/.error=Could not transfer artifact javax.xml\:jaxws-api\:pom\:2.0EA3 from/to abc-repository (http\://nexus.ucs.co.kr/nexus/content/groups/public/)\: Failed to transfer http\://nexus.ucs.co.kr/nexus/content/groups/public/javax/xml/jaxws-api/2.0EA3/jaxws-api-2.0EA3.pom. Error code 416, Requested Range Not Satisfiable

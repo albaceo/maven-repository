@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Apr 19 16:48:53 KST 2013
+default-http\://nexus.ucs.co.kr/nexus/content/groups/public/.lastUpdated=1366357732909
+http\://repo.maven.apache.org/maven2/.lastUpdated=1366357733791
+http\://nexus.ucs.co.kr/nexus/content/groups/public/.error=Could not transfer artifact org.apache.httpcomponents\:httpclient\:pom\:4.0.1 from/to abc-repository (http\://nexus.ucs.co.kr/nexus/content/groups/public/)\: C\:\\Users\\orgos\\Dropbox\\Project\\maven-repository\\org\\apache\\httpcomponents\\httpclient\\4.0.1\\httpclient-4.0.1.pom.ahc0b4e9b4d91104a9f (\uC9C0\uC815\uB41C \uD30C\uC77C\uC744 \uCC3E\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4)

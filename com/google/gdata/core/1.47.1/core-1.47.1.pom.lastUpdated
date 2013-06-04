@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Apr 19 16:48:56 KST 2013
+default-http\://nexus.ucs.co.kr/nexus/content/groups/public/.lastUpdated=1366357736928
+http\://nexus.ucs.co.kr/nexus/content/groups/public/.error=Could not transfer artifact com.google.gdata\:core\:pom\:1.47.1 from/to abc-repository (http\://nexus.ucs.co.kr/nexus/content/groups/public/)\: Failed to transfer http\://nexus.ucs.co.kr/nexus/content/groups/public/com/google/gdata/core/1.47.1/core-1.47.1.pom. Error code 416, Requested Range Not Satisfiable

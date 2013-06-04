@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Apr 19 16:48:48 KST 2013
+default-http\://nexus.ucs.co.kr/nexus/content/groups/public/.lastUpdated=1366357728727
+http\://nexus.ucs.co.kr/nexus/content/groups/public/.error=Could not transfer artifact commons-codec\:commons-codec\:pom\:1.5 from/to abc-repository (http\://nexus.ucs.co.kr/nexus/content/groups/public/)\: C\:\\Users\\orgos\\Dropbox\\Project\\maven-repository\\commons-codec\\commons-codec\\1.5\\commons-codec-1.5.pom.ahc5a103bc2371c47c9 (\uC9C0\uC815\uB41C \uD30C\uC77C\uC744 \uCC3E\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4)

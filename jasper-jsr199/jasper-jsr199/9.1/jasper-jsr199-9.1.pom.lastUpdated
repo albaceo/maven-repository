@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Apr 19 16:49:00 KST 2013
+default-http\://nexus.ucs.co.kr/nexus/content/groups/public/.lastUpdated=1366357739332
+http\://repo.maven.apache.org/maven2/.lastUpdated=1366357740269
+http\://nexus.ucs.co.kr/nexus/content/groups/public/.error=Could not transfer artifact jasper-jsr199\:jasper-jsr199\:pom\:9.1 from/to abc-repository (http\://nexus.ucs.co.kr/nexus/content/groups/public/)\: C\:\\Users\\orgos\\Dropbox\\Project\\maven-repository\\jasper-jsr199\\jasper-jsr199\\9.1\\jasper-jsr199-9.1.pom.ahc56816da05fe347d3 (\uC9C0\uC815\uB41C \uD30C\uC77C\uC744 \uCC3E\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4)

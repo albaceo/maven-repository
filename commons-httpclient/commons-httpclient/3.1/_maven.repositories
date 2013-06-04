@@ -1,5 +1,7 @@
 #NOTE: This is an internal implementation file, its format can be changed without prior notice.
-#Mon Dec 17 17:09:08 KST 2012
+#Fri Apr 19 16:52:36 KST 2013
+commons-httpclient-3.1-sources.jar>abc-repository=
 commons-httpclient-3.1.pom>spring-plugins-release=
 commons-httpclient-3.1.jar>spring-plugins-release=
+commons-httpclient-3.1.jar>central=
 commons-httpclient-3.1.pom>central=

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+    <!-- The Basics -->
+	<groupId>com.lguplus.abc</groupId>
+	<artifactId>mail</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- dependency> <groupId>org.slf4j</groupId> <artifactId>slf4j-api</artifactId> 
+			<version>1.7.2</version> </dependency -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.2</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.9</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.microsoft</groupId>
+                <artifactId>sqljdbc4</artifactId>
+                <version>${sqljdbc4.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.james</groupId>
+                <artifactId>apache-mailet-api</artifactId>
+                <version>${mailet.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.mail</groupId>
+                <artifactId>mail</artifactId>
+                <version>${mail.version}</version>
+                <!--exclusions>
+                    <exclusion>
+                        <groupId>javax.activation</groupId>
+                        <artifactId>activation</artifactId>
+                    </exclusion>
+                </exclusions-->
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
+    <modules>
+        <module>javamail_1.4.5-patch</module>
+        <module>mailets</module>
+        <module>apps</module>
+        <module>james-server_3.0-patch</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <target.jdk>1.6</target.jdk>
+        <sqljdbc4.version>3.0</sqljdbc4.version>
+        <james.version>3.0-beta4</james.version>
+        <mailet.version>2.5.0</mailet.version>
+        <mail.version>1.4.5</mail.version>
+        <junit.version>3.8.1</junit.version>
+    </properties>
+
+    <!-- Build Settings -->
+	<build>
+		<extensions>
+			<extension>
+				<!-- Adding a Protocol to Deploy the Site (support for ssh/scp) -->
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ssh-external</artifactId>
+				<version>2.2</version>
+			</extension>
+		</extensions>
+	</build>
+
+    <!-- More Project Information -->
+    <name>LG Uplus Groupware :: Mail Server</name>
+    <description>엘지 유플러스 그룹웨어 메일서버</description>
+
+    <url>http://maven.apache.org</url>
+
+    <inceptionYear>2012</inceptionYear>
+
+    <organization>
+        <name>lg u+</name>
+        <url>http://redmine.ucs.co.kr</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>jhonson</id>
+            <name>Jhonson Choi</name>
+            <email>jhonson@orgos.net</email>
+            <timezone>9</timezone>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <!-- Environment Settings -->
+
+    <issueManagement>
+        <url>http://redmine.ucs.co.kr</url>
+        <system>redmine</system>
+    </issueManagement>
+
+    <ciManagement>
+        <url>http://hudson.ucs.co.kr/hudson/</url>
+        <system>hudson</system>
+    </ciManagement>
+
+    <mailingLists>
+        <mailingList>
+            <name>Server Development (including components)</name>
+            <subscribe>server-dev-subscribe@orgos.net</subscribe>
+            <unsubscribe>server-dev-unsubscribe@orgos.net</unsubscribe>
+            <post>server-dev@orgos.net</post>
+            <archive>http://mail-archives.orgos.net/mod_mbox/mail-server-dev/</archive>
+        </mailingList>
+    </mailingLists>
+
+	<scm>
+		<url>http://svn.ucs.co.kr/ucs/mail</url>
+	</scm>
+
+	<prerequisites>
+		<maven>3.0.4</maven>
+	</prerequisites>
+
+    <repositories>
+        <repository>
+            <id>abc-repository</id>
+            <name>lgu groupware repository</name>
+            <url>http://nexus.ucs.co.kr/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>abc-deployment</id>
+            <name>lgu groupware repository</name>
+            <url>http://nexus.ucs.co.kr/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </distributionManagement>
+
+</project>

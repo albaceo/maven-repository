@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Apr 19 16:48:51 KST 2013
+default-http\://nexus.ucs.co.kr/nexus/content/groups/public/.lastUpdated=1366357730619
+http\://repo.maven.apache.org/maven2/.lastUpdated=1366357731692
+http\://nexus.ucs.co.kr/nexus/content/groups/public/.error=Could not transfer artifact com.google.oauth-client\:google-oauth-client\:pom\:1.13.1-beta from/to abc-repository (http\://nexus.ucs.co.kr/nexus/content/groups/public/)\: C\:\\Users\\orgos\\Dropbox\\Project\\maven-repository\\com\\google\\oauth-client\\google-oauth-client\\1.13.1-beta\\google-oauth-client-1.13.1-beta.pom.ahc79de4e6bd1a14a33 (\uC9C0\uC815\uB41C \uD30C\uC77C\uC744 \uCC3E\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4)

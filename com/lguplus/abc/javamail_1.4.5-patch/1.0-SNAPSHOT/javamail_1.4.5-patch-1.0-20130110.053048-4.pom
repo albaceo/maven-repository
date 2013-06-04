@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>javamail_1.4.5-patch</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+        </dependency>
+    </dependencies>
+
+    <parent>
+        <groupId>com.lguplus.abc</groupId>
+        <artifactId>mail</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <target.jdk>1.5</target.jdk>
+    </properties>
+
+    <name>LG Uplus Groupware :: Mail Server :: Java Mail 1.4.5 Patch</name>
+    <description>엘지유플러스 그룹웨어의 메일 서비스에서, 웹메일 클라이언트를 개발하기 위한 자바메일 에이피아이를 구현한 프러바이더를 패치하기 위한 프로젝트입니다.
+        기반이 되는 프러바이더는 썬마이크로시스템즈입니다.</description>
+
+</project>
